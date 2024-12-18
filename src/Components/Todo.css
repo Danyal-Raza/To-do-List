@@ -1,0 +1,53 @@
+.All-Todo {
+    background-color: white;
+    margin: 15px 0px;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    color: black;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.All-Todo:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.All-Todo i:hover {
+    cursor: pointer;
+}
+
+.E, .X {
+    background: blue;
+    border: none;
+    padding: 5px;
+    margin: 5px 0px 0px 0px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
+}
+
+.E:hover, .X:hover {
+    background: darkblue;
+    cursor: pointer;
+}
+
+.task-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.task-detail {
+    font-size: 1em;
+    color: #666;
+    margin-top: 5px;
+    white-space: pre-wrap;
+}
+
+.All-Todo p {
+    margin: 0;
+}

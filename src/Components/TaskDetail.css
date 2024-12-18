@@ -1,0 +1,45 @@
+.task-detail-page {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.task-detail-header {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.Todo-List {
+    background-color: white;
+    margin: 15px 0px;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    color: black;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Todo-List:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.Todo-List .task-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Todo-List .task-detail {
+    font-size: 16px;
+    color: gray;
+}
+
+.Todo-List i:hover {
+    cursor: pointer;
+}
