@@ -50,7 +50,7 @@ let Form = (Props) => {
                 rows="3"
             />
             <div className="Plus" onClick={() => { handleClick(); }}>
-                <i className={Props.Icon}></i>
+                <i className={Props.Icon}><b>Add Task</b></i>
             </div>
         </div>
     );
